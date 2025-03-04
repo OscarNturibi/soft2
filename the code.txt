@@ -48,12 +48,22 @@ int main() {
     cout << "Total Marks: " << total << " / " << (numSubjects * 100) << endl;
     cout << "Percentage: " << percentage << "%" << endl;
     cout << "Grade: " << grade << endl;
+    cout << "Highest Marks: " << highest << endl; // New line 1
+    cout << "Lowest Marks: " << lowest << endl;   // New line 2
 
     // Result status
     if (grade == 'F')
         cout << "Status: Fail. Better luck next time!\n";
     else
         cout << "Status: Pass. Congratulations!\n";
+
+// Additional feedback
+    if (highest == 100)  // New line 3
+        cout << "Perfect score in at least one subject!\n"; // New line 4
+    if (lowest < 40)  // New line 5
+        cout << "Consider revisiting weak subjects for improvement.\n";
+    return 0;
+    }
 
     return 0;
 }
