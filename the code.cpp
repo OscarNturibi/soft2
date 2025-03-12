@@ -64,6 +64,7 @@ int main() {
     cout << "Lowest Marks: " << lowest << endl;
 
     // Result status
+//Student results
     if (grade == 'F')
         cout << "Status: Fail. Better luck next time!\n";
     else
