@@ -43,7 +43,7 @@ int main() {
             i--; // Repeat input for this subject
             continue;
         }
-			
+
         total += marks[i];
 
         // Track highest and lowest marks
@@ -55,7 +55,6 @@ int main() {
     char grade = calculateGrade(percentage);
 
     // Display results
- //we are goood to go
     cout << "\n===== University Grading System =====\n";
     cout << "Student: " << studentName << endl;
     cout << "Total Marks: " << total << " / " << (numSubjects * 100) << endl;
@@ -65,6 +64,7 @@ int main() {
     cout << "Lowest Marks: " << lowest << endl;
 
     // Result status
+//Student results
     if (grade == 'F')
         cout << "Status: Fail. Better luck next time!\n";
     else
