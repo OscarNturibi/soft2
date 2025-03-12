@@ -58,6 +58,7 @@ int main() {
         cout << "Status: Pass. Congratulations!\n";
 
 // Additional feedback
+//Student grading
     if (highest == 100)  // New line 3
         cout << "Perfect score in at least one subject!\n"; // New line 4
     if (lowest < 40)  // New line 5
