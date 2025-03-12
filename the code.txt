@@ -35,7 +35,7 @@ int main() {
             i--; // Repeat input for this subject
             continue;
         }
-
+			
         total += marks[i];
     }
 
@@ -43,6 +43,7 @@ int main() {
     char grade = calculateGrade(percentage);
 
     // Display results
+ //we are goood to go
     cout << "\n===== University Grading System =====\n";
     cout << "Student: " << studentName << endl;
     cout << "Total Marks: " << total << " / " << (numSubjects * 100) << endl;
